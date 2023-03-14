@@ -1,0 +1,588 @@
+ul {
+    font-family: "Cairo";
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.navbar-custom {
+    background: #474B56 0% 0% no-repeat padding-box;
+    z-index: 2;
+
+}
+
+.back-img-right {
+    position: absolute;
+    transform: translateY(-100%);
+    right: 0;
+    width: 8%;
+    height: 101%;
+    background: #474B56 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+.back-img-left {
+    position: absolute;
+    transform: translateY(-100%);
+    left: 0;
+    width: 13%;
+    height: 101%;
+    background: #474B56 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+
+.nav-item {
+    font-family: "Cairo";
+}
+
+.nav-item a {
+    color: #E2FDFF;
+    opacity: 1;
+    letter-spacing: 0.47px;
+}
+
+.btnlogin {
+    width: 114px;
+    height: 40px;
+    /* UI Properties */
+    background: #E2FDFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #00105C;
+    font-weight: bold;
+    letter-spacing: 0.93px;
+    border: 0;
+}
+
+.btndetails {
+    width: 114px;
+    height: 40px;
+    /* UI Properties */
+    background: #E2FDFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #00105C;
+    font-weight: bold;
+    letter-spacing: 0.93px;
+    border: 1px solid #00105C;
+}
+
+.detail span {
+    font: normal normal bold 10px/0px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 0.3;
+    margin-bottom: 10px;
+}
+
+.detail p {
+    font: normal normal 600 12px/20px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 1;
+}
+
+.currency {
+    font: normal normal bold 26px/25px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    width: 100px;
+}
+
+.currency span {
+    font: normal normal 600 13px/24px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+}
+
+.currency p {
+    font: normal normal bold 10px/10px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 0.3;
+    display: flex;
+    float: right;
+}
+
+.cproduct {
+    font: normal normal 600 20px/10px Cairo;
+    letter-spacing: 0px;
+    color: #ffffff;
+    width: 125px;
+}
+
+.cproduct span {
+    font: normal normal 12px/20px Cairo;
+    letter-spacing: 0px;
+    color: #ffffff;
+
+}
+
+.cproduct p {
+    font: normal normal bold 12px/0px Cairo;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.5;
+    display: flex;
+}
+
+h3 {
+    text-align: right;
+    font: normal normal bold 20px/37px Cairo;
+    letter-spacing: 1.43px;
+    color: #00105C;
+    opacity: 1;
+}
+
+h4 {
+    font: normal normal 600 16px/37px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 0.5;
+}
+
+h5 {
+    font: normal normal 900 20px/0px Cairo;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: right;
+}
+
+h6 {
+    text-align: center;
+    font: normal normal 900 8px/33px Cairo;
+    letter-spacing: 1.29px;
+    color: #00105C;
+    opacity: 1;
+}
+
+.borderwidth {
+    width: 255px;
+    height: 185px;
+}
+
+.smalltext span {
+    font: normal normal 600 15px Cairo;
+    letter-spacing: 1.14px;
+    color: #00105C;
+    opacity: 1;
+}
+
+.icon {
+    transform: rotateY(-0deg) scaleX(-1);
+}
+
+figcaption {
+    font-family: "Cairo";
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.custom h1 {
+    font: normal normal 900 45px/90px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 1;
+}
+
+.asalla {
+    background: #0000000D 0% 0% no-repeat padding-box;
+}
+
+.how h3 {
+    font: normal normal bold 20px/37px Cairo;
+    letter-spacing: 1.43px;
+    color: #00105C;
+}
+
+.how p {
+    font: normal normal 600 16px/37px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 0.5;
+}
+
+.howw p {
+    font: normal normal 600 16px/37px Cairo;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.how span {
+    text-align: right;
+    text-decoration: underline;
+    font: normal normal bold 16px/37px Cairo;
+    letter-spacing: 0px;
+    color: #082AC8;
+    opacity: 1;
+}
+
+.decorative-line {
+    background-image: linear-gradient(var(--line-color), var(--line-color));
+    background-repeat: no-repeat;
+    background-size: 38% var(--line-height);
+    background-position: 95% 67%;
+
+}
+
+.decorative-linee {
+    background-image: linear-gradient(var(--line-color), var(--line-color));
+    background-repeat: no-repeat;
+    background-size: 90% var(--line-height);
+    background-position: 55% 67%;
+}
+
+.decorative-lineee {
+    background-image: linear-gradient(var(--line-color), var(--line-color));
+    background-repeat: no-repeat;
+    background-size: 15% var(--line-height);
+    background-position: 97% 67%;
+
+}
+
+.my-element {
+    --line-color: #BBE54A;
+    --line-height: 5px;
+    float: right;
+
+}
+
+.compare {
+    background-color: #00105C;
+    color: #ffffff;
+    border: 0;
+}
+
+.img-text-container {
+    position: relative;
+    z-index: 2;
+}
+
+.inner {
+    top: 50px;
+    right: 0px;
+    color: #fff;
+}
+
+.inner h1 {
+    position: absolute;
+    font: normal normal 900 45px/60px Cairo;
+    padding: 0px 30px;
+    width: 225px;
+    text-align: right;
+    top: 30px;
+}
+
+.innerll h6 {
+    position: absolute;
+    font: normal normal 900 20px/90px Cairo;
+    width: 50%;
+    top: 50px;
+    color: #FFFFFF;
+    right: 50px;
+}
+
+.inner img {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+}
+
+.innerll img {
+    position: absolute;
+    left: 70px;
+    top: 85px;
+}
+
+.innerll h1 {
+    position: absolute;
+    right: 150px;
+    top: -80px;
+    text-align: right;
+    font: normal normal 900 50px/60px Cairo;
+    letter-spacing: 0px;
+    color: #E2FDFF;
+    width: 30%;
+
+}
+
+.innerll button {
+    position: absolute;
+    left: 120px;
+    top: -50px;
+}
+
+.filter {
+    width: 160px;
+    height: 60px;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
+    font: normal normal 600 14px/37px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+}
+
+.shahid {
+
+    text-align: center;
+    font: normal normal 600 20px/37px Cairo;
+    letter-spacing: 0px;
+    color: #00105C;
+    opacity: 1;
+    width: 238px;
+    height: 60px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00105C;
+    border-radius: 5px;
+}
+
+.shahidelmazed {
+    text-align: center;
+    font: normal normal 600 20px/37px Cairo;
+    background: #E2FDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #00105C;
+    border-radius: 5px;
+    opacity: 1;
+    width: 190px;
+    height: 60px;
+    color: #00105C;
+
+}
+
+.bord {
+    top: 95%;
+    right: 52%;
+    width: 65%;
+}
+
+.curouse {
+    border: 0px;
+    background-color: #ffffff;
+}
+
+button span {
+    /* UI Properties */
+    color: #00105C;
+    opacity: 1;
+
+}
+
+.barstatus {
+    z-index: 5;
+    right: 50%;
+    top: 95%;
+    width: 275px;
+    height: 105px;
+    border-radius: 18px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.bgstyle {
+    background-image: url('/public/images/yellow.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+
+}
+
+.foot {
+    background-image: url('/public/images/Mask Group 72@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* The popup chat - hidden by default */
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    left: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container h4 {
+    font: normal normal bold 16px/30px Cairo;
+    letter-spacing: 1.14px;
+    color: #00105C;
+    opacity: 1;
+}
+
+.form-container h6 {
+    font: normal normal 600 14px/26px Cairo;
+    letter-spacing: 0px;
+    color: #DE3618;
+    opacity: 0.5;
+}
+
+/* Full-width textarea */
+.form-container .backcompare {
+    width: 100%;
+    padding: 5px;
+    margin: 0px 0 50px 0;
+    border: none;
+    background: #ffffff;
+    resize: none;
+    min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container .backcompare:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Add a red background color to the cancel button */
+.form-container .comapre {
+    background: #00105C 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal 600 14px/26px Cairo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    padding: 16px 20px;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+    color: #DE3618;
+    background: #001891 0% 0% no-repeat padding-box;
+    font: normal normal 600 14px/26px Cairo;
+    letter-spacing: 0px;
+}
+
+.cpic {
+    width: 67px;
+    height: 67px;
+    background-image: url('/public/images/Groupstc.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    border: 1px solid #0000000D;
+
+}
+
+.mpic {
+    width: 67px;
+    height: 67px;
+    background-image: url('/public/images/mask x.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    border: 1px solid #0000000D;
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .inner h1 {
+        position: absolute;
+        font: normal normal 900 30px/60px Cairo;
+        padding: 0px 30px;
+        width: 175px;
+        text-align: right;
+        top: 0px;
+    }
+
+    .innerll h1 {
+        position: absolute;
+        right: 100px;
+        top: -59px;
+        text-align: right;
+        font: normal normal 900 31px/40px Cairo;
+        letter-spacing: 0px;
+        color: #E2FDFF;
+        width: 30%;
+    
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #00105C;
+        border-radius: 0px 0px 25px 25px;
+        margin-bottom: 10px;
+    }
+
+    .navbar button {
+        color: #ffffff;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        width: 342px;
+        height: 158px;
+    }
+
+    .panel span {
+        color: #00105C;
+    }
+
+    .icons img {
+        height: 56px;
+        width: 56px;
+
+    }
+
+    .custom h1 {
+        font: bold 14px Cairo;
+        letter-spacing: 0px;
+        color: #00105C;
+        opacity: 1;
+    }
+
+
+    .my-element {
+        --line-color: #BBE54A;
+        --line-height: 0px;
+    }
+
+    .filter {
+        width: 35px;
+        height: 34px;
+        border: 0px solid #cacaca;
+        letter-spacing: 0px;
+        color: #00105C;
+    }
+
+    .shahid {
+
+        text-align: center;
+        font: normal normal bold 14px/0px Cairo;
+        letter-spacing: 0px;
+        color: #00105C;
+        opacity: 1;
+        width: 184px;
+        height: 40px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #00105C;
+        border-radius: 5px;
+
+    }
+}
